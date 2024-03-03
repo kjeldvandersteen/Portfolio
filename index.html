@@ -362,9 +362,9 @@
                                     </video>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">This is one of my school projects where the goal was to make a game design document in a group with one or two other developers and make a game using the document.
-                                        So group mates and me decided to make a rogue like game where you need to kill all the skeleton enemy's 
+                                        So group mates and me decided to make a rogue like game where you need to kill all the skeleton enemies.
                                     </p>  
-                                    <button class="btn btn-primary mb-4" onclick="location.href='assets/Game_design_document.pdf';">
+                                    <button class="btn btn-primary mb-5" onclick="location.href='assets/Game_design_document.pdf';">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Design document
                                     </button>   
@@ -372,16 +372,29 @@
                                     <ul class="mb-4 order-list">
                                         <li>Health</li>
                                         <li>Player Movement</li>
-                                        <li>finish</li>
+                                        <li>Firstperson camera</li>
+                                        <li>Room finish</li>
                                     </ul>
                                     <h5 class="mb-4"> Health:</h5>
-                                    <p class="mb-4"> I made the health system by using inheritance so that both the players and enemy's all use one base health which controlls all the healt points</p>
-                                    <!--ScreenShot Base Health-->
-                                    <p class="mb-5">For the player I made a new script where all the damage taken from the enemy's is registered and the health bar gets updated</p>
-                                    <!--Screenshot player health-->
-                                    <p class="mb-5">For the enemy's it is almost the same as the player health script but them for the enemy</p>
+                                    <p class="mb-2"> I made the health system by using inheritance so that both the players and enemies all use one base health which controlls all the health points. 
+                                        For the player I made a new script where all the damage taken from the enemies is registered and the health bar gets updated. 
+                                        and for the enemy's it is almost the same as the player health script but them for the enemy</p>
+                                    
+                                    <a href="https://gist.github.com/kjeldvandersteen/1b0ee9cb4278c65bb5760c0f92c6040e" class="mb-4">Click here for the code</a>
 
-                                    <h5 class="mb-4">Player Movement:</h5>
+                                    <h5 class="mb-5">Player Movement:</h5>
+                                    <p class="mb-3">For the player movement I made basic input for the player such as walking forward and backwards left and right. But I also made a dash
+                                        so you can dash away to safety from the enemies.
+                                    </p>
+                                    <img class="img-fluid img-spacing" src="assets/video/PlayerMovement.gif">
+                                    <a href="https://gist.github.com/kjeldvandersteen/36afbb13153c459c14ec661a941bd770" class="mb-4">Click here for the code</a>
+                                    <h5 class="mb-5"> Firstperson camera:</h5>
+                                    <p class="mb-4">The camera is an child object of the player which rotate's the player and the camera </p>
+                                    <img class="img-fluid img-spacing" src="assets/video/FPS camera.gif">
+                                    <a href="https://gist.github.com/kjeldvandersteen/0826f0fb72d537956b4d700586a31a4e" class="mb-4">Click here for the code</a>
+                                    <h5 class="mb-4">Room finish:</h5>
+                                    <p class="mb-4"> For the room finish I made a list that adds all the enemies in the room and every time a enemy is killed and gets removed from the list and when the list is empty the doors to the next room will open.</p>
+                                    <a href="https://gist.github.com/kjeldvandersteen/49ec479a9a5dc78220610c4fe723b245" class="mb-4">Click here for the code</a>
                                     <p></p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
