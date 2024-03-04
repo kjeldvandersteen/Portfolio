@@ -11077,3 +11077,9 @@ html {
 .text-white-bg{  
   color: black;
 }
+
+.order-list{
+  text-align: left;
+  line-height: 200%;
+}
+
