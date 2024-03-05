@@ -11090,3 +11090,7 @@ html {
 .email {
   text-align: center;
 }
+
+.email-text {
+  display: inline;
+}
