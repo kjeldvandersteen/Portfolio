@@ -11086,3 +11086,7 @@ html {
 .img-center{
   width: 100%;
 }
+
+.email {
+  text-align: center;
+}
