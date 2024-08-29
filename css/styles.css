@@ -11047,7 +11047,7 @@ html {
 }
 
 .video{
-  width: 100%;
+  width: 80%;
 }
 
 .sub-section-title {
@@ -11079,7 +11079,7 @@ html {
 }
 
 .order-list{
-  text-align: left;
+  text-align: center;
   line-height: 200%;
 }
 
@@ -11112,4 +11112,9 @@ html {
   line-height: 1.5;
   margin-top: 0.35em;
   opacity: 0;
+}
+
+
+.unsorted-list {
+  list-style-position: none
 }
