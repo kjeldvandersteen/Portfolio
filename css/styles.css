@@ -11118,3 +11118,7 @@ html {
 .unsorted-list {
   list-style-position: none
 }
+
+.profiel-foto{
+  border-radius: 30%;
+}
